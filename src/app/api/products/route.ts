@@ -1,7 +1,3 @@
-// export async function GET(Request) {
-//   return new Response('This is a  new PRODUCTS route')
-// }
-
 import api from '@/data/api'
 
 export async function GET() {

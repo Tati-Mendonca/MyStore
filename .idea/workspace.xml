@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="350c8db9-c977-4841-b292-23f5696ed4f4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/clean/_logs/2024-11-16T21_24_26_657Z-debug-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean/_logs/2024-11-16T22_29_29_619Z-debug-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean/_logs/2024-11-16T22_29_30_063Z-debug-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean/_logs/2024-11-18T17_30_59_986Z-debug-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean/_logs/2024-11-18T17_31_00_537Z-debug-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean/_logs/2024-11-18T19_11_20_108Z-debug-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean/_logs/2024-11-18T19_11_20_928Z-debug-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean/_logs/2024-11-18T19_42_09_791Z-debug-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(store)/(home)/loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(store)/(home)/loading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(store)/(home)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(store)/(home)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(store)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(store)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/featured/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/featured/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2rKFNIOdvxhMYItLnMyGSWBvo9U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/tatii/OneDrive/Área de Trabalho/Meus Projetos/Ecommerce"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="350c8db9-c977-4841-b292-23f5696ed4f4" name="Changes" comment="" />
+      <created>1736299817890</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736299817890</updated>
+    </task>
+    <servers />
+  </component>
+</project>
