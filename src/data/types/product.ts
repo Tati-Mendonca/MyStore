@@ -5,6 +5,6 @@ export type Product = {
   image: string
   description: string
   featured: boolean
-  color: string
   category: string
+  slug: string
 }
