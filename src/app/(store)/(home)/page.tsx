@@ -2,6 +2,7 @@ import api from '@/data/api'
 import { Product } from '@/data/types/product'
 import Link from 'next/link'
 import Image from 'next/image'
+import { Metadata } from 'next'
 
 async function getProductsFeatured(): Promise<Product[]> {
   try {
@@ -11,6 +12,10 @@ async function getProductsFeatured(): Promise<Product[]> {
     console.error('Erro ao buscar produtos:', error)
     return []
   }
+}
+
+export const metadata: Metadata = {
+  title: 'Home',
 }
 
 export default async function Home() {
