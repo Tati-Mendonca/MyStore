@@ -36,7 +36,8 @@ Insira um gif da aplicação funcionando
 
 Acesse a documentação da API [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src="https://i.ibb.co/9ZNfmBD/doc-api.png" alt="doc-api" border="0">
+
 ## Instalação e Execução
 
 **Backend**
