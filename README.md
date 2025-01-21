@@ -12,9 +12,7 @@ My Store é uma aplicação web desenvolvida para gerenciar produtos de um e-com
 - Interface Amigável
 - Gerenciamento de Dados
 ## Protótipo
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+<img src="https://i.ibb.co/hH0D8Wd/prot-tipo.png" alt="prot-tipo" border="0" >
 
 ## Demonstração
 
