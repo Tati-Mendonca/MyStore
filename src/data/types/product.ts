@@ -6,5 +6,4 @@ export type Product = {
   description: string
   featured: boolean
   category: string
-  slug: string
 }
