@@ -14,8 +14,7 @@ export default function Store({ children }: { children: ReactNode }) {
 
   return (
     <CartProvider>
-      {' '}
-      <div className="mx-auto grid min-h-screen w-full max-w-[1600px] grid-rows-app gap-5 py-8">
+      <div className="mx-auto grid min-h-screen w-full max-w-[1600px] grid-rows-app gap-3 py-3">
         <Header toggleSidebar={toggleSidebar} />
         {children}
         <Sidebar

@@ -39,7 +39,7 @@ export default async function Search({ searchParams }: SearchProps) {
             >
               <Image
                 className="group-hover:scale-105 transition-transform duration-500"
-                src="/T-shirt.png"
+                src={product.image}
                 width={480}
                 height={480}
                 quality={100}

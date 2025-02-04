@@ -7,7 +7,7 @@ import { SearchForm } from './search-form'
 
 export function Header({ toggleSidebar }: { toggleSidebar: () => void }) {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between px-5">
       <div className="flex items-center gap-5">
         <Link href="/" className="text-2xl font-extrabold text-zinc-950">
           My Store

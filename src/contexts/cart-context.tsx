@@ -6,7 +6,6 @@ interface CartItem {
   title: string
   price: number
   image: string
-  // size: string
 }
 
 interface CartContextType {
@@ -15,12 +14,15 @@ interface CartContextType {
   removeFromCart: (productId: number) => void
   updateQuantity: (productId: number, quantity: number) => void
   getTotalPrice: () => number
+  recentlyAdded: boolean
+  setRecentlyAdded: (value: boolean) => void
 }
 
 const CartContext = createContext({} as CartContextType)
 
 export function CartProvider({ children }: { children: ReactNode }) {
   const [cartItems, setCartItems] = useState<CartItem[]>([])
+  const [recentlyAdded, setRecentlyAdded] = useState(false)
 
   function addToCart(product: CartItem) {
     if (
@@ -48,6 +50,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
         return [...state, product]
       }
     })
+    setRecentlyAdded(true)
   }
 
   function removeFromCart(productId: number) {
@@ -80,6 +83,8 @@ export function CartProvider({ children }: { children: ReactNode }) {
         removeFromCart,
         updateQuantity,
         getTotalPrice,
+        recentlyAdded,
+        setRecentlyAdded,
       }}
     >
       {children}

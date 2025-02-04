@@ -22,16 +22,16 @@ export default async function Home() {
   const [highLightedProduct, ...otherProducts] = await getProductsFeatured()
 
   return (
-    <main className="grid max-h-[860px] grid-cols-9 grid-rows-6 gap-6">
+    <main className="grid max-h-[860px] grid-cols-9 grid-rows-2 gap-4 px-5">
       <Link
         href={`/product/${highLightedProduct.id}`}
         className="group relative col-span-6 row-span-6 rounded-lg bg-zinc-200 overflow-hidden flex justify-center "
       >
         <Image
           className="group-hover:scale-105 transition-transform duration-500"
-          src="/T-shirt.png"
-          width={920}
-          height={920}
+          src={highLightedProduct.image}
+          width={600}
+          height={500}
           quality={100}
           alt={highLightedProduct?.title}
         />
@@ -40,7 +40,7 @@ export default async function Home() {
             {highLightedProduct?.title}
           </span>
           <span className="flex h-full items-center justify-center rounded-full bg-slate-400 px-4 font-semibold">
-            {highLightedProduct?.price.toLocaleString('pt-BR', {
+            {Math.floor(highLightedProduct?.price).toLocaleString('pt-BR', {
               style: 'currency',
               currency: 'BRL',
               minimumFractionDigits: 0,
@@ -58,9 +58,9 @@ export default async function Home() {
           >
             <Image
               className="group-hover:scale-105 transition-transform duration-500"
-              src="/T-shirt.png"
-              width={920}
-              height={920}
+              src={product.image}
+              width={300}
+              height={200}
               quality={100}
               alt={product.title}
             />
@@ -69,7 +69,7 @@ export default async function Home() {
                 {product.title}
               </span>
               <span className="flex h-full items-center justify-center rounded-full bg-slate-400 px-4 font-semibold">
-                {highLightedProduct?.price.toLocaleString('pt-BR', {
+                {Math.floor(product?.price).toLocaleString('pt-BR', {
                   style: 'currency',
                   currency: 'BRL',
                   minimumFractionDigits: 0,
