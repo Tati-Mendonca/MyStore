@@ -12,13 +12,19 @@ My Store é uma aplicação web desenvolvida para gerenciar produtos de um e-com
 - Interface Amigável
 - Gerenciamento de Dados
 
-## Aplicação
-<div >
-<img src='https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc25zOXB5aDZqaTZpcHV3Mm1nZWpwaDN5aXQ3OXBxZmhwOXk3Nnc1ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BLNwDuOctDtazFyVkc/giphy.gif'></a> 
-</div>
+## Screenshot
+<a href="https://ibb.co/MrjVL78"><img src="https://i.ibb.co/xWcjQ6m/home.png" alt="home" border="0"></a>
+<a href="https://ibb.co/VWzV5hTL"><img src="https://i.ibb.co/mC2JgY4R/product.png" alt="product" border="0"></a>
+<a href="https://ibb.co/j90dHgfq"><img src="https://i.ibb.co/RGr17zbt/busca.png" alt="busca" border="0"></a>
+<a href="https://ibb.co/CK6qn5kS"><img src="https://i.ibb.co/hFckKRPT/carrinho-de-compras.png" alt="carrinho-de-compras" border="0"></a>
 
 ## Protótipo
 <img src="https://i.ibb.co/hH0D8Wd/prot-tipo.png" alt="prot-tipo" border="0" >
+
+## Demonstração
+<div >
+<img src='https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc25zOXB5aDZqaTZpcHV3Mm1nZWpwaDN5aXQ3OXBxZmhwOXk3Nnc1ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BLNwDuOctDtazFyVkc/giphy.gif'></a> 
+</div>
 
 ## Documentação
 
