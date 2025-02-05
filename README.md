@@ -21,11 +21,6 @@ My Store é uma aplicação web desenvolvida para gerenciar produtos de um e-com
 <a href="https://ibb.co/j90dHgfq"><img src="https://i.ibb.co/RGr17zbt/busca.png" alt="busca" border="0"></a>
 <a href="https://ibb.co/CK6qn5kS"><img src="https://i.ibb.co/hFckKRPT/carrinho-de-compras.png" alt="carrinho-de-compras" border="0"></a>
 
-## Demonstração
-<div >
-<img src='https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc25zOXB5aDZqaTZpcHV3Mm1nZWpwaDN5aXQ3OXBxZmhwOXk3Nnc1ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BLNwDuOctDtazFyVkc/giphy.gif'></a> 
-</div>
-
 ## Documentação
 
 Acesse a documentação da API [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
@@ -45,7 +40,10 @@ Acesse a documentação da API [http://localhost:8080/swagger-ui.html](http://lo
 - Swagger UI
 - Docker
 
-
+## Demonstração
+<div >
+<img src='https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc25zOXB5aDZqaTZpcHV3Mm1nZWpwaDN5aXQ3OXBxZmhwOXk3Nnc1ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BLNwDuOctDtazFyVkc/giphy.gif'></a> 
+</div>
 
 ## Instalação e Execução
 
