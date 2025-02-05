@@ -11,13 +11,20 @@ My Store é uma aplicação web desenvolvida para gerenciar produtos de um e-com
 - Exibição de Detalhes de Produto
 - Interface Amigável
 - Gerenciamento de Dados
+
+## Aplicação
+<div >
+<img src='https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc25zOXB5aDZqaTZpcHV3Mm1nZWpwaDN5aXQ3OXBxZmhwOXk3Nnc1ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BLNwDuOctDtazFyVkc/giphy.gif'></a> 
+</div>
+
 ## Protótipo
 <img src="https://i.ibb.co/hH0D8Wd/prot-tipo.png" alt="prot-tipo" border="0" >
 
-## Demonstração
+## Documentação
 
-Insira um gif da aplicação funcionando
+Acesse a documentação da API [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
+<img src="https://i.ibb.co/9ZNfmBD/doc-api.png" alt="doc-api" border="0">
 
 ## Stack utilizada
 
@@ -32,11 +39,7 @@ Insira um gif da aplicação funcionando
 - Swagger UI
 - Docker
 
-## Documentação
 
-Acesse a documentação da API [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
-
-<img src="https://i.ibb.co/9ZNfmBD/doc-api.png" alt="doc-api" border="0">
 
 ## Instalação e Execução
 
