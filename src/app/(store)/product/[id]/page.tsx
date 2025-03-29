@@ -9,13 +9,13 @@ interface ProductProps {
   }
 }
 
-async function getProduct(id: string): Promise<Product> {
+async function getProduct(id: string): Promise<Product | null> {
   try {
     const response = await api.get(`/api/products/${id}`)
     return response.data
   } catch (error) {
     console.error('Erro ao buscar produto:', error)
-    throw error
+    return null
   }
 }
 
@@ -24,13 +24,16 @@ export async function generateMetadata({
 }: ProductProps): Promise<Metadata> {
   const product = await getProduct(params.id)
   return {
-    title: product.title,
+    title: product ? product.title : 'Produto não encontrado',
   }
 }
 
 export default async function ProductPage({ params }: ProductProps) {
-  const { id } = await Promise.resolve(params)
-  const product = await getProduct(id)
+  const product = await getProduct(params.id)
+
+  if (!product) {
+    return <p className="text-center">Produto não encontrado 😢</p>
+  }
 
   return (
     <div>
