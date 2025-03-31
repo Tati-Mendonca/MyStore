@@ -3,7 +3,7 @@ import api from '@/data/api'
 import { Product } from '@/data/types/product'
 import { Metadata } from 'next'
 
-interface ProductProps {
+interface ProductPageProps {
   params: {
     id: string
   }
@@ -21,18 +21,23 @@ async function getProduct(id: string): Promise<Product | null> {
 
 export async function generateMetadata({
   params,
-}: ProductProps): Promise<Metadata> {
+}: ProductPageProps): Promise<Metadata> {
   const product = await getProduct(params.id)
+
   return {
     title: product ? product.title : 'Produto não encontrado',
   }
 }
 
-export default async function ProductPage({ params }: ProductProps) {
+export default async function ProductPage({ params }: ProductPageProps) {
+  if (!params || !params.id) {
+    return <div>Erro: Produto não encontrado.</div>
+  }
+
   const product = await getProduct(params.id)
 
   if (!product) {
-    return <p className="text-center">Produto não encontrado 😢</p>
+    return <div>Erro: Não foi possível carregar o produto.</div>
   }
 
   return (
