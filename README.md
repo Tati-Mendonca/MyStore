@@ -40,7 +40,8 @@ Acesse a documentação da API [http://localhost:8080/swagger-ui.html](http://lo
 - Swagger UI
 - Docker
 
-## Demonstração
+## Projeto
+Acesse o projeto clicando aqui: https://app-my-store.netlify.app/
 <div >
 <img src='https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc25zOXB5aDZqaTZpcHV3Mm1nZWpwaDN5aXQ3OXBxZmhwOXk3Nnc1ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BLNwDuOctDtazFyVkc/giphy.gif'></a> 
 </div>
