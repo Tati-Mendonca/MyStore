@@ -4,19 +4,17 @@ import { redirect } from 'next/navigation'
 import { Product } from '@/data/types/product'
 import api from '@/data/api'
 
-interface SearchProps {
-  searchParams: {
-    q: string
-  }
-}
-
 async function searchProducts(query: string): Promise<Product[]> {
   const response = await api.get(`/api/products/search?query=${query}`)
   return response.data
 }
 
-export default async function Search({ searchParams }: SearchProps) {
-  const { q: query } = searchParams
+export default async function Search({
+  searchParams,
+}: {
+  searchParams: Promise<{ q?: string }>
+}) {
+  const { q: query } = await searchParams
 
   if (!query) {
     redirect('/')

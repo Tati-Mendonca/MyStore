@@ -7,7 +7,13 @@
 6 silly config load:file:C:\Users\tatii\AppData\Roaming\npm\etc\npmrc
 7 verbose title npm run build
 8 verbose argv "run" "build"
-9 verbose logfile logs-max:10 dir:C:\Users\tatii\OneDrive\Área de Trabalho\Meus Projetos\Ecommerce\my-store\clean\_logs\2025-03-31T18_46_39_124Z-
-10 verbose logfile C:\Users\tatii\OneDrive\Área de Trabalho\Meus Projetos\Ecommerce\my-store\clean\_logs\2025-03-31T18_46_39_124Z-debug-0.log
+9 verbose logfile logs-max:10 dir:C:\Users\tatii\OneDrive\Área de Trabalho\Meus Projetos\Ecommerce\my-store\clean\_logs\2025-04-01T17_37_06_065Z-
+10 verbose logfile C:\Users\tatii\OneDrive\Área de Trabalho\Meus Projetos\Ecommerce\my-store\clean\_logs\2025-04-01T17_37_06_065Z-debug-0.log
 11 silly logfile start cleaning logs, removing 2 files
 12 silly logfile done cleaning log files
+13 verbose cwd C:\Users\tatii\OneDrive\Área de Trabalho\Meus Projetos\Ecommerce\my-store
+14 verbose os Windows_NT 10.0.26100
+15 verbose node v20.11.0
+16 verbose npm  v10.9.0
+17 verbose exit 1
+18 verbose code 1
