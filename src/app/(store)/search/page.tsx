@@ -12,13 +12,24 @@ async function searchProducts(query: string): Promise<Product[]> {
 export default async function Search({
   searchParams,
 }: {
-  searchParams: Promise<{ q?: string }>
+  searchParams: Promise<{ q?: string }> // | Promise<{ q?: string }>
 }) {
-  const { q: query } = await searchParams
+  const resolvedSearchParams = await searchParams
+  const query = resolvedSearchParams.q || ''
 
   if (!query) {
     redirect('/')
   }
+  // export default async function Search({
+  //   searchParams,
+  // }: {
+  //   searchParams: Promise<{ q?: string }>
+  // }) {
+  // const { q: query } = await searchParams
+
+  // if (!query) {
+  //   redirect('/')
+  // }
 
   const products = await searchProducts(query)
 

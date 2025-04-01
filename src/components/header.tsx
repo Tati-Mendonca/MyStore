@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { CartWidget } from './cart-widget'
 import { SearchForm } from './search-form'
+import { Suspense } from 'react'
 
 export function Header({ toggleSidebar }: { toggleSidebar: () => void }) {
   return (
@@ -12,7 +13,9 @@ export function Header({ toggleSidebar }: { toggleSidebar: () => void }) {
         <Link href="/" className="text-2xl font-extrabold text-zinc-950">
           My Store
         </Link>
-        <SearchForm />
+        <Suspense fallback={<p>Carregando busca...</p>}>
+          <SearchForm />
+        </Suspense>
       </div>
       <div className="flex items-center gap-4">
         <CartWidget onClick={toggleSidebar} />
